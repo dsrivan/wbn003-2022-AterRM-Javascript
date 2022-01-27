@@ -43,3 +43,20 @@ const countNumbersLess501 = (accumulator, crazyNumber) => {
 const numbersLess501 = crazyNumbers.reduce(countNumbersLess501, 0);
 console.log(numbersLess501);
 ```
+
+&nbsp;
+&nbsp;
+
+03 - Gere um novo array com cada um dos números abaixo elevados ao quadrado e exiba o novo array no console.
+
+```javascript
+const numbers = [5, 7, 3];
+```
+
+&nbsp;
+Resolução: :heavy_check_mark:
+
+```javascript
+const squareNumbers = numbers.map((number) => number ** 2);
+console.log(squareNumbers);
+```
