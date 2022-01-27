@@ -90,3 +90,28 @@ const moviesReleasedBefore2000 = tarantinoMovies.filter(
 );
 console.log(moviesReleasedBefore2000);
 ```
+
+&nbsp;
+&nbsp;
+
+05 - Gere um novo array que contém apenas os nomes das séries abaixo e exiba o novo array no console.
+
+```javascript
+const tvShows = [
+  { name: "Breaking Bad", releaseYear: 2008 },
+  { name: "Mr. Robot", releaseYear: 2015 },
+  { name: "True Detective", releaseYear: 2014 },
+  { name: "Hannibal", releaseYear: 2013 },
+  { name: "The Handmaid's Tale", releaseYear: 2017 },
+  { name: "House M.D.", releaseYear: 2004 },
+  { name: "Watchmen", releaseYear: 2019 },
+];
+```
+
+&nbsp;
+Resolução: :heavy_check_mark:
+
+```javascript
+const tvShowsName = tvShows.map(({ name }) => name);
+console.log(tvShowsName);
+```
